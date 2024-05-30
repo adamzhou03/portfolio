@@ -1,0 +1,117 @@
+#header-and-exp .experience {
+  display: inline-block;
+}
+
+#header-and-exp .container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  box-shadow: 0 0 2px 1px #0f04a0;
+}
+
+#header-and-exp .section {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+}
+
+#header-and-exp h2 {
+  margin: 10px;
+  margin-left: 0px;
+}
+
+#header-and-exp h2 i,
+h1 i,
+a i {
+  margin-right: 5px;
+  color: #00c591;
+}
+
+.section {
+  padding: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  background-color: #0097c5;
+}
+
+#header-and-exp a {
+  text-decoration: none;
+  color: black;
+  font-weight: 550;
+}
+
+#header {
+  flex: 2;
+  justify-content: center;
+  background-color: white;
+}
+
+#experience {
+  background-color: white;
+  flex: 5;
+}
+
+#header-and-exp {
+  display: inline-flex;
+  gap: 15px;
+}
+
+#header-and-exp li {
+  list-style-type: square;
+  margin-left: 20px;
+  margin-top: 2px;
+}
+
+#header-and-exp ul {
+  padding: 2px;
+}
+
+#header-and-exp .experience-content {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+#showcase-button {
+  background-color: #00c591;
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}
+
+#header-and-exp .job-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-and-exp .job-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00c591;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  font-weight: 550;
+}
+
+#header-and-exp .section p {
+  margin: 5px;
+}
+
+#header-and-exp .job-info h3 {
+  margin: 5px;
+}
