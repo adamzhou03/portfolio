@@ -4,3 +4,6 @@ The main page index.html contains the resume and has a link to the project overv
 
 Student Name 1: Adam Zhou
 Student Number 1: 300244610
+
+Student Name 2: Bryson Crooks
+Student Number 2: 300136193
